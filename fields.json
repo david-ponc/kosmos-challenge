@@ -1,0 +1,37 @@
+{
+	"fields": [
+		{
+			"component": "text",
+			"label": "First Name",
+			"type": "text",
+			"_uid": "7e24b616-49fb-4408-ac7f-cdf8fe223afe"
+		},
+		{
+			"component": "select",
+			"label": "Select label",
+			"options": [
+				{
+					"label": "Option 1",
+					"value": "option1"
+				}
+			],
+			"_uid": "1bb9eb93-c486-40a3-a4cd-4a78b19c4579"
+		},
+		{
+			"component": "radio-group",
+			"label": "Radio Group",
+			"type": "radio",
+			"options": [
+				{
+					"label": "Option 1",
+					"value": "option1"
+				},
+				{
+					"label": "Option 2",
+					"value": "option2"
+				}
+			],
+			"_uid": "b9cc73fe-d1cd-4303-b318-22da5e91d9f6"
+		}
+	]
+}

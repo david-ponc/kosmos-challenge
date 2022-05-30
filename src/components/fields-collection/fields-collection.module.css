@@ -1,0 +1,27 @@
+.main {
+  align-self: center;
+  justify-self: center;
+  min-width: 480px;
+  background-color: hsl(0, 0%, 100%);
+  padding: 1rem;
+  border-radius: 0.5rem;
+  max-height: 90%;
+  overflow-y: auto;
+}
+
+.title {
+  margin-bottom: 1rem;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.message {
+  align-self: center;
+  justify-self: center;
+  padding: 1rem;
+  color: hsl(0, 0%, 50%);
+}

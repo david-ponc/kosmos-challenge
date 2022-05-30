@@ -1,0 +1,47 @@
+.container {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.field {
+  flex-grow: 1;
+  border: none;
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+
+.label {
+  font-size: 0.875rem;
+  font-weight: 600;
+  color: hsl(0, 0%, 36%);
+}
+
+.button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-self: flex-end;
+  width: 3rem;
+  height: 3rem;
+  background-color: transparent;
+  font-size: 0.75rem;
+}
+
+.button:hover {
+  background-color: hsl(0, 0%, 96%);
+}
+
+.options {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.radioContainer {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+

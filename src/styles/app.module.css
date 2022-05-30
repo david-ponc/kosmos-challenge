@@ -1,0 +1,34 @@
+.container {
+  width: 100%;
+  height: 100%;
+  display: grid;
+  grid-template-columns: auto 1fr;
+  background-color: hsl(0, 0%, 94%);
+}
+
+.aside {
+  min-width: 320px;
+  background-color: hsl(0, 0%, 100%);
+  border-radius: 0 0.75rem 0.75rem 0;
+  padding: 1.5rem;
+}
+
+.options {
+  margin-top: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+
+.options .button {
+  background-color: hsl(0, 0%, 100%);
+  text-align: left;
+  padding: 1rem;
+  color: hsl(0, 0%, 37%);
+  font-size: 1.125rem;
+}
+
+.button:hover {
+  background-color: hsl(0, 0%, 96%);
+  color: hsl(0, 0%, 16%);
+}
